@@ -90,6 +90,20 @@
   
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-SLMBNCXB7S', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
@@ -117,9 +131,9 @@
   <meta property="og:description" content="I tried to put together my own thoughts on Continuous Testing. Some of them are flavored by ideas I read."><meta property="og:image" content="https://pmakhakh.github.io/post/continuous-testing/featured.png">
   <meta property="twitter:image" content="https://pmakhakh.github.io/post/continuous-testing/featured.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2022-01-15T21:27:32&#43;03:00">
+  <meta property="article:published_time" content="2022-01-15T23:31:18&#43;03:00">
   
-  <meta property="article:modified_time" content="2022-01-15T21:27:32&#43;03:00">
+  <meta property="article:modified_time" content="2022-01-15T23:31:18&#43;03:00">
   
 
   
@@ -429,7 +443,7 @@
 <div class="container split-header">
   <div class="row justify-content-center">
     <div class="col-lg-8">
-        <img class="img-fluid w-100" src="/post/continuous-testing/featured_hu9ae1845a8c62e4317f13a367984705ab_607569_680x500_fill_q90_lanczos_smart1_3.png" itemprop="image" alt="">
+        <img class="img-fluid w-100" src="/post/continuous-testing/featured_huf20e287688210f2968bd8fa2867cc1bb_430020_680x500_fill_q90_lanczos_smart1_3.png" itemprop="image" alt="">
         
     </div>
     <div class="col-lg-8">
@@ -445,8 +459,8 @@
 
 
 
-<meta content="2022-01-15 21:27:32 &#43;0300 &#43;03" itemprop="datePublished">
-<meta content="2022-01-15 21:27:32 &#43;0300 &#43;03" itemprop="dateModified">
+<meta content="2022-01-15 23:31:18 &#43;0300 &#43;03" itemprop="datePublished">
+<meta content="2022-01-15 23:31:18 &#43;0300 &#43;03" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -587,8 +601,8 @@
       <h2 id="testing-doesnt-create-added-value">Testing doesn’t create added value?</h2>
 <p>Well, yes. And even more — it is source of spending. In ideal world with rainbows, unicorns nibbling grass and people not making mistakes testing is probably excessive. But in our universe, it is essential and often expensive. What would you do with something annoying though necessary to do? Right! Ask someone else to do it 🙂. This is exactly what was happening when companies sought to outsource testing.</p>
 <p>As a result, testing was just another phase in waterfall process. It was pretty much detached activity which provides delayed feedback, and the entire process was as transparent as smoking room at the airport.</p>
-<h2 id="quality-as-source-for-decision-making">Quality as source for decision making</h2>
-<p>Can you answer this question: “Is your latest build ready to be promoted to production right now?”. If your answer is “Yes”, then you may want to skip reading rest of the story. If your answer is “No”, that’s not that bad! But if you are not sure, then your testing process maturity is likely at opportunistic level.</p>
+<p>Quality as source for decision making
+Can you answer this question: “Is your latest build ready to be promoted to production right now?”. If your answer is “Yes”, then you may want to skip reading rest of the story. If your answer is “No”, that’s not that bad! But if you are not sure, then your testing process maturity is likely at opportunistic level.</p>
 <p>Yes, Continuous Testing is all about making business decisions based on current data on quality. At the end of the day, businesses are not too concerned about coverage, test results, and even quality. They operate such concepts as time to market and business risk. So, what can help to make decisions based on quality at any given moment?</p>
 <h2 id="pillars-of-continuous-testing">Pillars of Continuous Testing</h2>
 <p>Continuous Testing lays down on both processes and technologies. Automated Testing is a foundation, most critical activity, yet a part of the puzzle.</p>
@@ -616,8 +630,7 @@
 <li>API end-to-end tests;</li>
 <li>UI system tests.</li>
 </ul>
-<p>They are listed in the order of feedback speed and potential impact of failure. It doesn’t make much sense to spend time on executing time-consuming UI system tests if there are failures on lowers levels. This is the whole idea of hard quality gates — zero tolerance to failures on each level. It can take significant effort to fix all failures in the beginning if you did not set up quality gates on initial stage of product development. But as soon as you do this, your maintenance and analysis effort will drop significantly.
-However, you might want to proceed with deploying a build to upper environments if test failures concentrate in low priority functional areas. You can achieve this by configuring quality gates so that pipeline stops only when the percentage of business risk that seems to be broken exceeds threshold.</p>
+<p>They are listed in the order of feedback speed and potential impact of failure. It doesn’t make much sense to spend time on executing time-consuming UI system tests if there are failures on lowers levels. This is the whole idea of hard quality gates — zero tolerance to failures on each level. It can take significant effort to fix all failures in the beginning if you did not set up quality gates on initial stage of product development. But as soon as you do this, your maintenance and analysis effort will drop significantly. However, you might want to proceed with deploying a build to upper environments if test failures concentrate in low priority functional areas. You can achieve this by configuring quality gates so that pipeline stops only when the percentage of business risk that seems to be broken exceeds threshold.</p>
 <h3 id="03-quick-and-effective-analysis-of-test-results">03 Quick and effective analysis of test results</h3>
 <p>Standard target for percentage of passed tests is 90% and more. The higher pass rate you have, the faster decisions you can take. However, time for analysis and investigating failures is crucial factor for quick feedback. If test stability is close to 95% but it takes days to do root cause analysis for 5% failures, this doesn’t help to make decisions faster.</p>
 <p>The good news is that the power of AI and ML technologies nowadays can save tons of time and effort for results analysis. It is a good idea to give a try to Report Portal or other test reporting tools. They can help to do quick and smart results analysis on a large scale. Killing feature of such tools is automatic classification of failures so that you always see if your tests fail due to product defect, infrastructure problem or bug in test.</p>
@@ -634,6 +647,8 @@ However, you might want to proceed with deploying a build to upper environments 
 <p>Exploratory and ad hock testing can be even more efficient allowing team to discover non-trivial yet severe product issues during such time-boxed activity. If this is crucial to have visual testing, there are several automated solutions on the market like Applitools. In short, if it is vital to run manual tests, run them but limit in time and concentrate on areas with higher business risk. Monitor testing efficiency and adjust test strategy as soon as you see quality dropped.</p>
 <h2 id="full-control-over-failures">Full control over failures</h2>
 <p>And finally, nothing’s perfect. And nothing gives you more confidence than a reliable backup. Automated deployment to production is a great thing. Automated rollback is even better. 🙂</p>
+<hr>
+<p>Keep reading on <a href="https://medium.com/@pavel.makhakhei">Medium</a></p>
 
     </div>
 
@@ -777,16 +792,6 @@ However, you might want to proceed with deploying a build to upper environments 
 
 
       
-      
-      <div class="article-widget">
-        <div class="hr-light"></div>
-        <h3>Related</h3>
-        <ul>
-          
-          <li><a href="/project/contiuous-testing/">State of Contiuous Testing Report 2021</a></li>
-          
-        </ul>
-      </div>
       
     
 

@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 15 Jan 2022 21:27:32 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jan 2022 23:31:18 +0300</lastBuildDate>
     
 	    <atom:link href="https://pmakhakh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>continuous testing</title>
       <link>https://pmakhakh.github.io/tags/continuous-testing/</link>
-      <pubDate>Sat, 15 Jan 2022 21:27:32 +0300</pubDate>
+      <pubDate>Sat, 15 Jan 2022 23:31:18 +0300</pubDate>
       
       <guid>https://pmakhakh.github.io/tags/continuous-testing/</guid>
       <description></description>
@@ -40,7 +40,7 @@
     </item>
     
     <item>
-      <title>cloud-testing</title>
+      <title>cloud testing</title>
       <link>https://pmakhakh.github.io/tags/cloud-testing/</link>
       <pubDate>Sat, 01 May 2021 14:55:19 +0300</pubDate>
       

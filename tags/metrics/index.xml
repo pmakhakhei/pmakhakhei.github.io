@@ -44,7 +44,7 @@ Same principle can be applied to automated testing as well.&lt;/p&gt;
 &lt;p&gt;Now you have fully traceable and prioritized dynamic test suites which you can trigger automatically after some additional manipulations within you CICD pipeline. The more often you run them, the more value you get from initial investments in automation.&lt;/p&gt;
 &lt;p&gt;And finally, establish clear KPIs for test automation team and track progress on dashboards. This is reliable way to keep automation effort under control and still get more value from it.&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Thanks for reading and stay tuned for further stories! I will tell how to enable smart test coverage from business features to automation code and trigger dynamically created test suites from your CICD tool.&lt;/p&gt;
+&lt;p&gt;Keep reading on &lt;a href=&#34;https://medium.com/@pavel.makhakhei&#34;&gt;Medium&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
