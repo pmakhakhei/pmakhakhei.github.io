@@ -8,7 +8,7 @@ authors:
 - admin
 tags: ["test automation", "metrics"]
 categories: ["medium"]
-date: "2021-31-24T00:00:00Z"
+date: "2021-12-24T00:00:00Z"
 featured: false
 draft: false
 
@@ -65,4 +65,4 @@ And finally, establish clear KPIs for test automation team and track progress on
 
 ...
 
-Thanks for reading and stay tuned for further stories! I will tell how to enable smart test coverage from business features to automation code and trigger dynamically created test suites from your CICD tool.
+Keep reading on [Medium](https://medium.com/@pavel.makhakhei)

@@ -3,8 +3,8 @@
 
 title: "Cloud-Native Testing Ecosystem"
 summary: "Microservices & Serverless. Resilence & Availability. Migration."
-authors: ["Pavel Makhakhei"]
-tags: ["cloud-testing"]
+authors: [admin]
+tags: ["cloud testing"]
 categories: ["research"]
 date: 2021-05-01T14:55:19+03:00
 

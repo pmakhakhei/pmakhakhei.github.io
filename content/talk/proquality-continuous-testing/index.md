@@ -3,8 +3,8 @@ title: От кода до прода за 1 час
 event: ProQuality 2021
 event_url: https://community-z.com/events/proquality-2021
 location: Minsk, Belarus (online)
-summary: 	Coninuous Testing trends
-abstract: "Coninuous testing - тренды, текущее состояние и как это работает на практике."
+summary: 	Continuous Testing trends [RU]
+abstract: "Continuous testing - тренды, текущее состояние и как это работает на практике."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

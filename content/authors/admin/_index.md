@@ -22,7 +22,7 @@ organizations:
   url: "https://epam.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include continuous testing, automated testing, Cloud technologies.
+bio: My research interests include Test Automation and DevOps, Continuous Testing, Cloud technologies.
 
 # Should the user's education and interests be displayed?
 display_education: true
