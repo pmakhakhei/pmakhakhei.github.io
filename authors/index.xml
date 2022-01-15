@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Pavel Makhakhei</title>
+    <link>https://pmakhakh.github.io/authors/</link>
+    <description>Recent content in Authors on Pavel Makhakhei</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 17 Dec 2021 10:00:03 +0000</lastBuildDate>
+    
+	    <atom:link href="https://pmakhakh.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pavel Makhakhei</title>
+      <link>https://pmakhakh.github.io/authors/pavel-makhakhei/</link>
+      <pubDate>Sat, 01 May 2021 14:55:19 +0300</pubDate>
+      
+      <guid>https://pmakhakh.github.io/authors/pavel-makhakhei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pmakhakh.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pmakhakh.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m specializing in building test strategy and holistic ecosystem aiming to improve time to market, quality in production, testing effectiveness.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10+ years&#39; experience in Software Testing&lt;/li&gt;
+&lt;li&gt;5+ years&#39; experience in leading, consulting and management&lt;/li&gt;
+&lt;li&gt;focused on technologies and solutions&lt;/li&gt;
+&lt;li&gt;strong critical thinking and analytical skills&lt;/li&gt;
+&lt;li&gt;managed teams of 20+ people&lt;/li&gt;
+&lt;li&gt;standartized automation landscape on a large scale&lt;/li&gt;
+&lt;li&gt;experienced in Java / .NET test automation&lt;/li&gt;
+&lt;li&gt;led researches in Continuous Testing, Cloud-native validation&lt;/li&gt;
+&lt;li&gt;interviewer, speaker, trainer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
