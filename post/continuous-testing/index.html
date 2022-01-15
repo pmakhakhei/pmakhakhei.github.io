@@ -29,10 +29,10 @@
   
     
   
-  <meta name="description" content="The story about why coverage metrics may be misleading and how to stick to meaningful measurements.">
+  <meta name="description" content="I tried to put together my own thoughts on Continuous Testing. Some of them are flavored by ideas I read.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pmakhakh.github.io/post/automation-coverage/">
+  <link rel="alternate" hreflang="en-us" href="https://pmakhakh.github.io/post/continuous-testing/">
 
   
 
@@ -98,7 +98,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://pmakhakh.github.io/post/automation-coverage/">
+  <link rel="canonical" href="https://pmakhakh.github.io/post/continuous-testing/">
 
   
   
@@ -112,26 +112,26 @@
   <meta property="twitter:creator" content="@automatedcom">
   
   <meta property="og:site_name" content="Pavel Makhakhei">
-  <meta property="og:url" content="https://pmakhakh.github.io/post/automation-coverage/">
-  <meta property="og:title" content="Why Pursuing High Test Automation Coverage Leads Nowhere? | Pavel Makhakhei">
-  <meta property="og:description" content="The story about why coverage metrics may be misleading and how to stick to meaningful measurements."><meta property="og:image" content="https://pmakhakh.github.io/post/automation-coverage/featured.jpeg">
-  <meta property="twitter:image" content="https://pmakhakh.github.io/post/automation-coverage/featured.jpeg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://pmakhakh.github.io/post/continuous-testing/">
+  <meta property="og:title" content="Enterprise Continuous Testing in 1500 words | Pavel Makhakhei">
+  <meta property="og:description" content="I tried to put together my own thoughts on Continuous Testing. Some of them are flavored by ideas I read."><meta property="og:image" content="https://pmakhakh.github.io/post/continuous-testing/featured.png">
+  <meta property="twitter:image" content="https://pmakhakh.github.io/post/continuous-testing/featured.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-12-24T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2022-01-15T21:27:32&#43;03:00">
   
-  <meta property="article:modified_time" content="2021-12-24T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2022-01-15T21:27:32&#43;03:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Why Pursuing High Test Automation Coverage Leads Nowhere? | Pavel Makhakhei</title>
+
+
+  <title>Enterprise Continuous Testing in 1500 words | Pavel Makhakhei</title>
 
 </head>
 
@@ -429,22 +429,24 @@
 <div class="container split-header">
   <div class="row justify-content-center">
     <div class="col-lg-8">
-        <img class="img-fluid w-100" src="/post/automation-coverage/featured_hu2efb90299dca7a9d668af781086b2ff1_153826_680x500_fill_q90_lanczos_smart1.jpeg" itemprop="image" alt="">
+        <img class="img-fluid w-100" src="/post/continuous-testing/featured_hu9ae1845a8c62e4317f13a367984705ab_607569_680x500_fill_q90_lanczos_smart1_3.png" itemprop="image" alt="">
         
     </div>
     <div class="col-lg-8">
-      <h1 itemprop="name">Why Pursuing High Test Automation Coverage Leads Nowhere?</h1>
+      <h1 itemprop="name">Enterprise Continuous Testing in 1500 words</h1>
 
       
-      <p class="page-subtitle">I’ll tell below why coverage metrics may be misleading and how to stick to meaningful measurements. Let’s figure it out.</p>
+      <p class="page-subtitle"><p>This article was inspired by <a href="https://www.amazon.com/Enterprise-Continuous-Testing-Transforming-DevOps/dp/1699022941">“Enterprise Continuous Testing”</a> book by <a href="https://medium.com/@cynthiadunlop">Cynthia Dunlop</a> and <a href="https://www.linkedin.com/in/wolfgang-platz-2a68681b/">Wolfgang Platz</a>. Yes, I bought it 🙂. Honestly, I’m quite skeptical about reading books on technologies. I think books are slow. We have plenty of information sources today which are easier to access, more responsive to changes and sometimes even free.</p>
+<p>However, this book is exceptional. It’s conceptual and that’s why it will not become outdated tomorrow. After reading it, I tried to put together my own thoughts on Continuous Testing. Some of them are flavored by ideas I read. Dive in ⮯</p>
+</p>
       
 
       
 
 
 
-<meta content="2021-12-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-12-24 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2022-01-15 21:27:32 &#43;0300 &#43;03" itemprop="datePublished">
+<meta content="2022-01-15 21:27:32 &#43;0300 &#43;03" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -469,7 +471,7 @@
     
       
     
-    <time>Dec 24, 2021</time>
+    <time>Jan 15, 2022</time>
   </span>
   
 
@@ -478,7 +480,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    7 min read
   </span>
   
 
@@ -506,7 +508,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pmakhakh.github.io/post/automation-coverage/&amp;text=Why%20Pursuing%20High%20Test%20Automation%20Coverage%20Leads%20Nowhere?" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://pmakhakh.github.io/post/continuous-testing/&amp;text=Enterprise%20Continuous%20Testing%20in%201500%20words" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -519,7 +521,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?href=https://pmakhakh.github.io/post/automation-coverage/&amp;title=Why%20Pursuing%20High%20Test%20Automation%20Coverage%20Leads%20Nowhere?" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?href=https://pmakhakh.github.io/post/continuous-testing/&amp;title=Enterprise%20Continuous%20Testing%20in%201500%20words" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -532,7 +534,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Why%20Pursuing%20High%20Test%20Automation%20Coverage%20Leads%20Nowhere?&amp;body=https://pmakhakh.github.io/post/automation-coverage/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Enterprise%20Continuous%20Testing%20in%201500%20words&amp;body=https://pmakhakh.github.io/post/continuous-testing/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -545,7 +547,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://pmakhakh.github.io/post/automation-coverage/&amp;title=Why%20Pursuing%20High%20Test%20Automation%20Coverage%20Leads%20Nowhere?&amp;summary=%7bsummary%7d&amp;source=HitHib.io" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://pmakhakh.github.io/post/continuous-testing/&amp;title=Enterprise%20Continuous%20Testing%20in%201500%20words&amp;summary=%7bsummary%7d&amp;source=HitHib.io" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -582,33 +584,56 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Do you have Test Automation Coverage as a key measurement of testing effectiveness? Not yet? Then, you are in a better position to avoid stepping on a rake. If yes, it is a good point to reconsider your delivery and quality goals and reinvest in something more beneficial. I have dealt with dozens of projects and many of them are captive to metrics somebody told them to track. Some of them are also under the influence of outdated trends.</p>
-<p>I’ll tell below why coverage metrics may be misleading and how to stick to meaningful measurements. Let’s figure it out.</p>
-<p>Sometimes project teams misinterpret Test Automation coverage and use it as a measurement of manual effort vs. automated execution. There is a huge difference between coverage and automation maturity. If you had tons of manual test cases and your team automated 80% of them, does it mean you have 80% of you testing effort automated? Nope. It likely means you spent thousands of man-hours to automate irrelevant, outdated, not repetitive, low priority and meaningless test scenarios.</p>
-<p><img src="./01.png" alt="&ldquo;Fewer automated tests can bring more value&rdquo;"></p>
-<h2 id="risk-coverage-vs-test-coverage">Risk Coverage vs. Test Coverage</h2>
-<p>Risk-based Test Automation coverage is the answer.</p>
-<p>If you have centralized dashboard for your entire team with Test Automaton Coverage metric — that’s great! Now you can go there and remove Test Coverage chart whatever number it shows. Instead, calculate how much of your business critical and repeatable testing is covered by automated tests. As we figured out, it doesn’t matter what part of your test cases is covered by automation. What matters most — is ability to validate your critical and high priority business functionality and receive feedback as quick as possible by running automated test suite.</p>
-<blockquote>
-<p>Risk-based testing is a type of software testing that functions as an organizational principle used to prioritize the tests of features and functions in software, based on the risk of failure, the function of their importance and likelihood or impact of failure.
-Same principle can be applied to automated testing as well.</p>
-</blockquote>
-<p>As a next step, analyze your test execution and answer these questions: “How often do you run your tests?”, “Which tests are most repetitive and give you most meaningful feedback?”, “Which types of failures might impact your business most?”, “What you need to validate to minimize the risk?”. Once you have answers to these questions, go ahead and (re)prioritize test scenarios. It may happen that most meaningful test automation coverage already exist, or you need to focus more on automation of critical user journeys.</p>
-<h2 id="enable-traceability-and-test-to-feature-mapping">Enable traceability and test to feature mapping</h2>
-<p>As soon as you have relevant prioritization, it is a good point to link automated tests to business risk. Follow this step-by-step guide to achieve smart prioritization and full traceability:</p>
+      <h2 id="testing-doesnt-create-added-value">Testing doesn’t create added value?</h2>
+<p>Well, yes. And even more — it is source of spending. In ideal world with rainbows, unicorns nibbling grass and people not making mistakes testing is probably excessive. But in our universe, it is essential and often expensive. What would you do with something annoying though necessary to do? Right! Ask someone else to do it 🙂. This is exactly what was happening when companies sought to outsource testing.</p>
+<p>As a result, testing was just another phase in waterfall process. It was pretty much detached activity which provides delayed feedback, and the entire process was as transparent as smoking room at the airport.</p>
+<h2 id="quality-as-source-for-decision-making">Quality as source for decision making</h2>
+<p>Can you answer this question: “Is your latest build ready to be promoted to production right now?”. If your answer is “Yes”, then you may want to skip reading rest of the story. If your answer is “No”, that’s not that bad! But if you are not sure, then your testing process maturity is likely at opportunistic level.</p>
+<p>Yes, Continuous Testing is all about making business decisions based on current data on quality. At the end of the day, businesses are not too concerned about coverage, test results, and even quality. They operate such concepts as time to market and business risk. So, what can help to make decisions based on quality at any given moment?</p>
+<h2 id="pillars-of-continuous-testing">Pillars of Continuous Testing</h2>
+<p>Continuous Testing lays down on both processes and technologies. Automated Testing is a foundation, most critical activity, yet a part of the puzzle.</p>
+<h3 id="01-risk-based-automated-testing">01 Risk-based automated testing</h3>
+<p>Traditionally, high Test Automation coverage has been considered as a key indicator of testing maturity. However, automated tests bring quick value only when the number of tests is relatively small. When this number reaches thousand, complexity grows, and testing slows down again. Teams receive late feedback not because of high manual effort but because of increased effort to implement, maintain and analyze tons of automation artifacts.</p>
+<p>While there are different smart approaches which can facilitate managing high number of automation assets, risk-based test coverage is the most deliberate step towards Continuous Testing at a large scale.</p>
+<p>In short, risk-based approach relies on:</p>
 <ul>
-<li>prioritize your features and test cases if you didn’t do this yet;</li>
-<li>assign priorities to all your automated tests (luckily most automation tools allow to do this out of the box with the help of categorization);</li>
-<li>create custom attributes in the code to implement specific mechanism to reference functional areas;</li>
-<li>enable traceability from features to automated tests by referencing related functionality in test case metadata;</li>
-<li>build dynamic test suites based on referenced functionality and priorities assigned;</li>
-<li>track coverage for critical functional areas and high priority scenarios.</li>
+<li>identifying risks for functional areas;</li>
+<li>risk assessment based on probability and consequences;</li>
+<li>detecting and eliminating not tested areas or areas with not measured risk;</li>
+<li>maximizing coverage for business functionality with higher risk exposure;</li>
+<li>prioritization of tests based on risk analysis;</li>
+<li>test failure analysis based on risk exposure.</li>
 </ul>
-<p><img src="./02.png" alt="&ldquo;Traceability from business features to automated tests&rdquo;"></p>
-<p>Now you have fully traceable and prioritized dynamic test suites which you can trigger automatically after some additional manipulations within you CICD pipeline. The more often you run them, the more value you get from initial investments in automation.</p>
-<p>And finally, establish clear KPIs for test automation team and track progress on dashboards. This is reliable way to keep automation effort under control and still get more value from it.</p>
-<p>&hellip;</p>
-<p>Thanks for reading and stay tuned for further stories! I will tell how to enable smart test coverage from business features to automation code and trigger dynamically created test suites from your CICD tool.</p>
+<p>The procedure of risk definition and analysis is very well explained in “Enterprise Continuous Testing” book. Understanding what percentage of your business risk is covered by test cases and potential impact of failures gives ability to make well-grounded decisions based on current build quality.</p>
+<h3 id="02-hard-quality-gates-in-automated-delivery-pipeline">02 Hard quality gates in automated delivery pipeline</h3>
+<p>Having prioritized automated test suite is not 100% of success. Next step is to make automation work and serve the goal of delivering quickly and with high quality.</p>
+<p>I heard these words from development teams: “We are afraid to break pipeline”. But it’s… pointless. Break it! And then fix it. All the tests are created specifically for this purpose — to hard-stop delivery pipeline before broken functionality hits end users. I suggest considering quality gate as emergency break which is triggered automatically before the train crashes. Better sooner than later.</p>
+<p>This is the minimal list of quality gates I’d recommend to include in delivery pipeline:</p>
+<ul>
+<li>Static code analysis;</li>
+<li>Unit tests;</li>
+<li>Integration tests;</li>
+<li>API end-to-end tests;</li>
+<li>UI system tests.</li>
+</ul>
+<p>They are listed in the order of feedback speed and potential impact of failure. It doesn’t make much sense to spend time on executing time-consuming UI system tests if there are failures on lowers levels. This is the whole idea of hard quality gates — zero tolerance to failures on each level. It can take significant effort to fix all failures in the beginning if you did not set up quality gates on initial stage of product development. But as soon as you do this, your maintenance and analysis effort will drop significantly.
+However, you might want to proceed with deploying a build to upper environments if test failures concentrate in low priority functional areas. You can achieve this by configuring quality gates so that pipeline stops only when the percentage of business risk that seems to be broken exceeds threshold.</p>
+<h3 id="03-quick-and-effective-analysis-of-test-results">03 Quick and effective analysis of test results</h3>
+<p>Standard target for percentage of passed tests is 90% and more. The higher pass rate you have, the faster decisions you can take. However, time for analysis and investigating failures is crucial factor for quick feedback. If test stability is close to 95% but it takes days to do root cause analysis for 5% failures, this doesn’t help to make decisions faster.</p>
+<p>The good news is that the power of AI and ML technologies nowadays can save tons of time and effort for results analysis. It is a good idea to give a try to Report Portal or other test reporting tools. They can help to do quick and smart results analysis on a large scale. Killing feature of such tools is automatic classification of failures so that you always see if your tests fail due to product defect, infrastructure problem or bug in test.</p>
+<h3 id="04-up-to-date-dashboards-with-quality-metrics">04 Up to date dashboards with Quality Metrics</h3>
+<p>Single source of truth for product quality is crucial for Continuous Testing enablement. But no hurry to develop shared excel sheets with numbers and charts. There are out-of-the-box solutions for this. Test reporting tools can not only classify test failures but also visualize test results and calculate test execution statistics based on them.</p>
+<p>However, their capabilities may be limited to track all product-wise quality metrics such as Defect Containment Efficiency or Defect Density. Some tools like Azure DevOps allow to collect and visualize all necessary metrics in one place. So that you can build comprehensive and customized dashboards which are always accessible to the team and stakeholders.</p>
+<p>Another option is to collect all your data including test cases, defects, test results in single storage and use Power BI or alternative tools for data processing and visualization. This approach required higher initial investments but gives maximum flexibility. Whatever tool you choose, critical criteria for metric dashboard are ease of access, relevance and support for multiple teams and projects.</p>
+<h3 id="05-non-functional-tests-in-pipeline">05 Non-functional tests in pipeline</h3>
+<p>It happens quite often when companies invest disproportionately big effort into functional validation while non-functional testing is ignored or postponed prior to release date.</p>
+<p>Level of automation for non-functional tests is traditionally lower than that for functional tests. From other side, no matter how quick feedback from functional validation is if performance and security tests take long time to prepare, run and process results prior to release. And there are more non-functional tests which may be applicable for you project including accessibility, availability, resiliency, usability tests.</p>
+<p>While some of them are automated by their nature, others may require significant efforts for integrating them in delivery pipeline. Automate as much as you can, execute the rest manually but repeatedly. There are tools which facilitate implementation of non-functional quality gates in pipeline as well. You may want to give them a try.</p>
+<h3 id="06-manual-effort-limited-to-exploratory-testing">06 Manual effort limited to exploratory testing</h3>
+<p>Now, what to do with manual regression which always exists at some extent. I have simple solution — get rid of it and see what happens. Seriously. However, it should be controlled experiment. Analyze how many regression defects does team find during manual testing cycle and what are their priorities. It may occur that long repeatable manual testing doesn’t really help to find severe errors.</p>
+<p>Exploratory and ad hock testing can be even more efficient allowing team to discover non-trivial yet severe product issues during such time-boxed activity. If this is crucial to have visual testing, there are several automated solutions on the market like Applitools. In short, if it is vital to run manual tests, run them but limit in time and concentrate on areas with higher business risk. Monitor testing efficiency and adjust test strategy as soon as you see quality dropped.</p>
+<h2 id="full-control-over-failures">Full control over failures</h2>
+<p>And finally, nothing’s perfect. And nothing gives you more confidence than a reliable backup. Automated deployment to production is a great thing. Automated rollback is even better. 🙂</p>
 
     </div>
 
@@ -616,9 +641,7 @@ Same principle can be applied to automated testing as well.</p>
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/test-automation/">test automation</a>
-  
-  <a class="badge badge-light" href="/tags/metrics/">metrics</a>
+  <a class="badge badge-light" href="/tags/continuous-testing/">continuous testing</a>
   
 </div>
 
@@ -754,6 +777,16 @@ Same principle can be applied to automated testing as well.</p>
 
 
       
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/project/contiuous-testing/">State of Contiuous Testing Report 2021</a></li>
+          
+        </ul>
+      </div>
       
     
 

@@ -7,14 +7,74 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 15 Jan 2022 21:27:32 +0300</lastBuildDate>
     
 	    <atom:link href="https://pmakhakh.github.io/categories/medium/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Enterprise Continuous Testing in 1500 words</title>
+      <link>https://pmakhakh.github.io/post/continuous-testing/</link>
+      <pubDate>Sat, 15 Jan 2022 21:27:32 +0300</pubDate>
+      
+      <guid>https://pmakhakh.github.io/post/continuous-testing/</guid>
+      <description>&lt;h2 id=&#34;testing-doesnt-create-added-value&#34;&gt;Testing doesn’t create added value?&lt;/h2&gt;
+&lt;p&gt;Well, yes. And even more — it is source of spending. In ideal world with rainbows, unicorns nibbling grass and people not making mistakes testing is probably excessive. But in our universe, it is essential and often expensive. What would you do with something annoying though necessary to do? Right! Ask someone else to do it 🙂. This is exactly what was happening when companies sought to outsource testing.&lt;/p&gt;
+&lt;p&gt;As a result, testing was just another phase in waterfall process. It was pretty much detached activity which provides delayed feedback, and the entire process was as transparent as smoking room at the airport.&lt;/p&gt;
+&lt;h2 id=&#34;quality-as-source-for-decision-making&#34;&gt;Quality as source for decision making&lt;/h2&gt;
+&lt;p&gt;Can you answer this question: “Is your latest build ready to be promoted to production right now?”. If your answer is “Yes”, then you may want to skip reading rest of the story. If your answer is “No”, that’s not that bad! But if you are not sure, then your testing process maturity is likely at opportunistic level.&lt;/p&gt;
+&lt;p&gt;Yes, Continuous Testing is all about making business decisions based on current data on quality. At the end of the day, businesses are not too concerned about coverage, test results, and even quality. They operate such concepts as time to market and business risk. So, what can help to make decisions based on quality at any given moment?&lt;/p&gt;
+&lt;h2 id=&#34;pillars-of-continuous-testing&#34;&gt;Pillars of Continuous Testing&lt;/h2&gt;
+&lt;p&gt;Continuous Testing lays down on both processes and technologies. Automated Testing is a foundation, most critical activity, yet a part of the puzzle.&lt;/p&gt;
+&lt;h3 id=&#34;01-risk-based-automated-testing&#34;&gt;01 Risk-based automated testing&lt;/h3&gt;
+&lt;p&gt;Traditionally, high Test Automation coverage has been considered as a key indicator of testing maturity. However, automated tests bring quick value only when the number of tests is relatively small. When this number reaches thousand, complexity grows, and testing slows down again. Teams receive late feedback not because of high manual effort but because of increased effort to implement, maintain and analyze tons of automation artifacts.&lt;/p&gt;
+&lt;p&gt;While there are different smart approaches which can facilitate managing high number of automation assets, risk-based test coverage is the most deliberate step towards Continuous Testing at a large scale.&lt;/p&gt;
+&lt;p&gt;In short, risk-based approach relies on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;identifying risks for functional areas;&lt;/li&gt;
+&lt;li&gt;risk assessment based on probability and consequences;&lt;/li&gt;
+&lt;li&gt;detecting and eliminating not tested areas or areas with not measured risk;&lt;/li&gt;
+&lt;li&gt;maximizing coverage for business functionality with higher risk exposure;&lt;/li&gt;
+&lt;li&gt;prioritization of tests based on risk analysis;&lt;/li&gt;
+&lt;li&gt;test failure analysis based on risk exposure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The procedure of risk definition and analysis is very well explained in “Enterprise Continuous Testing” book. Understanding what percentage of your business risk is covered by test cases and potential impact of failures gives ability to make well-grounded decisions based on current build quality.&lt;/p&gt;
+&lt;h3 id=&#34;02-hard-quality-gates-in-automated-delivery-pipeline&#34;&gt;02 Hard quality gates in automated delivery pipeline&lt;/h3&gt;
+&lt;p&gt;Having prioritized automated test suite is not 100% of success. Next step is to make automation work and serve the goal of delivering quickly and with high quality.&lt;/p&gt;
+&lt;p&gt;I heard these words from development teams: “We are afraid to break pipeline”. But it’s… pointless. Break it! And then fix it. All the tests are created specifically for this purpose — to hard-stop delivery pipeline before broken functionality hits end users. I suggest considering quality gate as emergency break which is triggered automatically before the train crashes. Better sooner than later.&lt;/p&gt;
+&lt;p&gt;This is the minimal list of quality gates I’d recommend to include in delivery pipeline:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Static code analysis;&lt;/li&gt;
+&lt;li&gt;Unit tests;&lt;/li&gt;
+&lt;li&gt;Integration tests;&lt;/li&gt;
+&lt;li&gt;API end-to-end tests;&lt;/li&gt;
+&lt;li&gt;UI system tests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;They are listed in the order of feedback speed and potential impact of failure. It doesn’t make much sense to spend time on executing time-consuming UI system tests if there are failures on lowers levels. This is the whole idea of hard quality gates — zero tolerance to failures on each level. It can take significant effort to fix all failures in the beginning if you did not set up quality gates on initial stage of product development. But as soon as you do this, your maintenance and analysis effort will drop significantly.
+However, you might want to proceed with deploying a build to upper environments if test failures concentrate in low priority functional areas. You can achieve this by configuring quality gates so that pipeline stops only when the percentage of business risk that seems to be broken exceeds threshold.&lt;/p&gt;
+&lt;h3 id=&#34;03-quick-and-effective-analysis-of-test-results&#34;&gt;03 Quick and effective analysis of test results&lt;/h3&gt;
+&lt;p&gt;Standard target for percentage of passed tests is 90% and more. The higher pass rate you have, the faster decisions you can take. However, time for analysis and investigating failures is crucial factor for quick feedback. If test stability is close to 95% but it takes days to do root cause analysis for 5% failures, this doesn’t help to make decisions faster.&lt;/p&gt;
+&lt;p&gt;The good news is that the power of AI and ML technologies nowadays can save tons of time and effort for results analysis. It is a good idea to give a try to Report Portal or other test reporting tools. They can help to do quick and smart results analysis on a large scale. Killing feature of such tools is automatic classification of failures so that you always see if your tests fail due to product defect, infrastructure problem or bug in test.&lt;/p&gt;
+&lt;h3 id=&#34;04-up-to-date-dashboards-with-quality-metrics&#34;&gt;04 Up to date dashboards with Quality Metrics&lt;/h3&gt;
+&lt;p&gt;Single source of truth for product quality is crucial for Continuous Testing enablement. But no hurry to develop shared excel sheets with numbers and charts. There are out-of-the-box solutions for this. Test reporting tools can not only classify test failures but also visualize test results and calculate test execution statistics based on them.&lt;/p&gt;
+&lt;p&gt;However, their capabilities may be limited to track all product-wise quality metrics such as Defect Containment Efficiency or Defect Density. Some tools like Azure DevOps allow to collect and visualize all necessary metrics in one place. So that you can build comprehensive and customized dashboards which are always accessible to the team and stakeholders.&lt;/p&gt;
+&lt;p&gt;Another option is to collect all your data including test cases, defects, test results in single storage and use Power BI or alternative tools for data processing and visualization. This approach required higher initial investments but gives maximum flexibility. Whatever tool you choose, critical criteria for metric dashboard are ease of access, relevance and support for multiple teams and projects.&lt;/p&gt;
+&lt;h3 id=&#34;05-non-functional-tests-in-pipeline&#34;&gt;05 Non-functional tests in pipeline&lt;/h3&gt;
+&lt;p&gt;It happens quite often when companies invest disproportionately big effort into functional validation while non-functional testing is ignored or postponed prior to release date.&lt;/p&gt;
+&lt;p&gt;Level of automation for non-functional tests is traditionally lower than that for functional tests. From other side, no matter how quick feedback from functional validation is if performance and security tests take long time to prepare, run and process results prior to release. And there are more non-functional tests which may be applicable for you project including accessibility, availability, resiliency, usability tests.&lt;/p&gt;
+&lt;p&gt;While some of them are automated by their nature, others may require significant efforts for integrating them in delivery pipeline. Automate as much as you can, execute the rest manually but repeatedly. There are tools which facilitate implementation of non-functional quality gates in pipeline as well. You may want to give them a try.&lt;/p&gt;
+&lt;h3 id=&#34;06-manual-effort-limited-to-exploratory-testing&#34;&gt;06 Manual effort limited to exploratory testing&lt;/h3&gt;
+&lt;p&gt;Now, what to do with manual regression which always exists at some extent. I have simple solution — get rid of it and see what happens. Seriously. However, it should be controlled experiment. Analyze how many regression defects does team find during manual testing cycle and what are their priorities. It may occur that long repeatable manual testing doesn’t really help to find severe errors.&lt;/p&gt;
+&lt;p&gt;Exploratory and ad hock testing can be even more efficient allowing team to discover non-trivial yet severe product issues during such time-boxed activity. If this is crucial to have visual testing, there are several automated solutions on the market like Applitools. In short, if it is vital to run manual tests, run them but limit in time and concentrate on areas with higher business risk. Monitor testing efficiency and adjust test strategy as soon as you see quality dropped.&lt;/p&gt;
+&lt;h2 id=&#34;full-control-over-failures&#34;&gt;Full control over failures&lt;/h2&gt;
+&lt;p&gt;And finally, nothing’s perfect. And nothing gives you more confidence than a reliable backup. Automated deployment to production is a great thing. Automated rollback is even better. 🙂&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Why Pursuing High Test Automation Coverage Leads Nowhere?</title>
       <link>https://pmakhakh.github.io/post/automation-coverage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pmakhakh.github.io/post/automation-coverage/</guid>
       <description>&lt;p&gt;Do you have Test Automation Coverage as a key measurement of testing effectiveness? Not yet? Then, you are in a better position to avoid stepping on a rake. If yes, it is a good point to reconsider your delivery and quality goals and reinvest in something more beneficial. I have dealt with dozens of projects and many of them are captive to metrics somebody told them to track. Some of them are also under the influence of outdated trends.&lt;/p&gt;
