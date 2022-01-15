@@ -1,0 +1,4 @@
+baseurl = "https://pmakhakhei.github.io/"
+languageCode = "en-us"
+title = "Quality Architect"
+theme = "academia-hugo"
