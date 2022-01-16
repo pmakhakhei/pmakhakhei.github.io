@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>metrics on Pavel Makhakhei</title>
-    <link>https://pmakhakh.github.io/tags/metrics/</link>
+    <link>https://pmakhakhei.github.io/tags/metrics/</link>
     <description>Recent content in metrics on Pavel Makhakhei</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://pmakhakh.github.io/tags/metrics/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pmakhakhei.github.io/tags/metrics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why Pursuing High Test Automation Coverage Leads Nowhere?</title>
-      <link>https://pmakhakh.github.io/post/automation-coverage/</link>
+      <link>https://pmakhakhei.github.io/post/automation-coverage/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://pmakhakh.github.io/post/automation-coverage/</guid>
+      <guid>https://pmakhakhei.github.io/post/automation-coverage/</guid>
       <description>&lt;p&gt;Do you have Test Automation Coverage as a key measurement of testing effectiveness? Not yet? Then, you are in a better position to avoid stepping on a rake. If yes, it is a good point to reconsider your delivery and quality goals and reinvest in something more beneficial. I have dealt with dozens of projects and many of them are captive to metrics somebody told them to track. Some of them are also under the influence of outdated trends.&lt;/p&gt;
 &lt;p&gt;I’ll tell below why coverage metrics may be misleading and how to stick to meaningful measurements. Let’s figure it out.&lt;/p&gt;
 &lt;p&gt;Sometimes project teams misinterpret Test Automation coverage and use it as a measurement of manual effort vs. automated execution. There is a huge difference between coverage and automation maturity. If you had tons of manual test cases and your team automated 80% of them, does it mean you have 80% of you testing effort automated? Nope. It likely means you spent thousands of man-hours to automate irrelevant, outdated, not repetitive, low priority and meaningless test scenarios.&lt;/p&gt;

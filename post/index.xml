@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pavel Makhakhei</title>
-    <link>https://pmakhakh.github.io/post/</link>
+    <link>https://pmakhakhei.github.io/post/</link>
     <description>Recent content in Posts on Pavel Makhakhei</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 15 Jan 2022 23:31:18 +0300</lastBuildDate>
     
-	    <atom:link href="https://pmakhakh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pmakhakhei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enterprise Continuous Testing in 1500 words</title>
-      <link>https://pmakhakh.github.io/post/continuous-testing/</link>
+      <link>https://pmakhakhei.github.io/post/continuous-testing/</link>
       <pubDate>Sat, 15 Jan 2022 23:31:18 +0300</pubDate>
       
-      <guid>https://pmakhakh.github.io/post/continuous-testing/</guid>
+      <guid>https://pmakhakhei.github.io/post/continuous-testing/</guid>
       <description>&lt;h2 id=&#34;testing-doesnt-create-added-value&#34;&gt;Testing doesn’t create added value?&lt;/h2&gt;
 &lt;p&gt;Well, yes. And even more — it is source of spending. In ideal world with rainbows, unicorns nibbling grass and people not making mistakes testing is probably excessive. But in our universe, it is essential and often expensive. What would you do with something annoying though necessary to do? Right! Ask someone else to do it 🙂. This is exactly what was happening when companies sought to outsource testing.&lt;/p&gt;
 &lt;p&gt;As a result, testing was just another phase in waterfall process. It was pretty much detached activity which provides delayed feedback, and the entire process was as transparent as smoking room at the airport.&lt;/p&gt;
@@ -74,10 +74,10 @@ Can you answer this question: “Is your latest build ready to be promoted to pr
     
     <item>
       <title>Why Pursuing High Test Automation Coverage Leads Nowhere?</title>
-      <link>https://pmakhakh.github.io/post/automation-coverage/</link>
+      <link>https://pmakhakhei.github.io/post/automation-coverage/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://pmakhakh.github.io/post/automation-coverage/</guid>
+      <guid>https://pmakhakhei.github.io/post/automation-coverage/</guid>
       <description>&lt;p&gt;Do you have Test Automation Coverage as a key measurement of testing effectiveness? Not yet? Then, you are in a better position to avoid stepping on a rake. If yes, it is a good point to reconsider your delivery and quality goals and reinvest in something more beneficial. I have dealt with dozens of projects and many of them are captive to metrics somebody told them to track. Some of them are also under the influence of outdated trends.&lt;/p&gt;
 &lt;p&gt;I’ll tell below why coverage metrics may be misleading and how to stick to meaningful measurements. Let’s figure it out.&lt;/p&gt;
 &lt;p&gt;Sometimes project teams misinterpret Test Automation coverage and use it as a measurement of manual effort vs. automated execution. There is a huge difference between coverage and automation maturity. If you had tons of manual test cases and your team automated 80% of them, does it mean you have 80% of you testing effort automated? Nope. It likely means you spent thousands of man-hours to automate irrelevant, outdated, not repetitive, low priority and meaningless test scenarios.&lt;/p&gt;

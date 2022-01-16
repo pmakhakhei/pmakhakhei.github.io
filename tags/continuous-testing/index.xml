@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>continuous testing on Pavel Makhakhei</title>
-    <link>https://pmakhakh.github.io/tags/continuous-testing/</link>
+    <link>https://pmakhakhei.github.io/tags/continuous-testing/</link>
     <description>Recent content in continuous testing on Pavel Makhakhei</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 15 Jan 2022 23:31:18 +0300</lastBuildDate>
     
-	    <atom:link href="https://pmakhakh.github.io/tags/continuous-testing/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://pmakhakhei.github.io/tags/continuous-testing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Enterprise Continuous Testing in 1500 words</title>
-      <link>https://pmakhakh.github.io/post/continuous-testing/</link>
+      <link>https://pmakhakhei.github.io/post/continuous-testing/</link>
       <pubDate>Sat, 15 Jan 2022 23:31:18 +0300</pubDate>
       
-      <guid>https://pmakhakh.github.io/post/continuous-testing/</guid>
+      <guid>https://pmakhakhei.github.io/post/continuous-testing/</guid>
       <description>&lt;h2 id=&#34;testing-doesnt-create-added-value&#34;&gt;Testing doesn’t create added value?&lt;/h2&gt;
 &lt;p&gt;Well, yes. And even more — it is source of spending. In ideal world with rainbows, unicorns nibbling grass and people not making mistakes testing is probably excessive. But in our universe, it is essential and often expensive. What would you do with something annoying though necessary to do? Right! Ask someone else to do it 🙂. This is exactly what was happening when companies sought to outsource testing.&lt;/p&gt;
 &lt;p&gt;As a result, testing was just another phase in waterfall process. It was pretty much detached activity which provides delayed feedback, and the entire process was as transparent as smoking room at the airport.&lt;/p&gt;
@@ -74,19 +74,19 @@ Can you answer this question: “Is your latest build ready to be promoted to pr
     
     <item>
       <title>От кода до прода за 1 час</title>
-      <link>https://pmakhakh.github.io/talk/proquality-continuous-testing/</link>
+      <link>https://pmakhakhei.github.io/talk/proquality-continuous-testing/</link>
       <pubDate>Fri, 17 Dec 2021 10:00:03 +0000</pubDate>
       
-      <guid>https://pmakhakh.github.io/talk/proquality-continuous-testing/</guid>
+      <guid>https://pmakhakhei.github.io/talk/proquality-continuous-testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>State of Contiuous Testing Report 2021</title>
-      <link>https://pmakhakh.github.io/project/contiuous-testing/</link>
+      <link>https://pmakhakhei.github.io/project/contiuous-testing/</link>
       <pubDate>Fri, 15 Oct 2021 14:31:25 +0300</pubDate>
       
-      <guid>https://pmakhakh.github.io/project/contiuous-testing/</guid>
+      <guid>https://pmakhakhei.github.io/project/contiuous-testing/</guid>
       <description></description>
     </item>
     
