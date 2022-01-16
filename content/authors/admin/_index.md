@@ -6,8 +6,9 @@ avatar_image: "pm-full.jpg"
 authors:
 - admin
 # resume download button
+
 btn:
-- url : ""
+- url : "/files/Pavel_Makhakhei-QA_Architect.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
@@ -29,7 +30,7 @@ display_education: true
 
 interests:
 - Emegring technologies
-- Automation solutions
+- Automated metrics
 - Reasearches
 
 education:
