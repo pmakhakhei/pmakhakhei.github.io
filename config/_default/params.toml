@@ -3,6 +3,7 @@
 
 # marketing
 microsoft_clarity = ""
+google_analytics = "G-J85E5VHJ9Y"
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
@@ -15,10 +16,10 @@ day_night = true
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "I’m Quality & Test Automation Architect specializing in building strategies and solutions aligned with business goals"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "static/img/pm-main2.jpg"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
 twitter = "automatedcom"
@@ -69,7 +70,7 @@ contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/automatedcom"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@pavel_m7i"},
   ]
 
 # Display a map.
