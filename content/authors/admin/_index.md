@@ -80,8 +80,8 @@ user_groups:
 ---
 
 I'm specializing in building test strategy and holistic ecosystem aiming to improve time to market, quality in production, testing effectiveness.
-- 10+ years' experience in Software Testing
-- 5+ years' experience in leading, consulting and management
+- 13 years' experience in Software Testing
+- 6 years' experience in leading, management and consulting
 - focused on technologies and solutions
 - strong critical thinking and analytical skills
 - managed teams of 20+ people

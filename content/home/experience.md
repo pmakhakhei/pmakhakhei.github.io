@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   title = "Quality Architect"
   company = "EPAM Systems"
   company_url = "https://www.epam.com/"
-  location = "Minsk, Belarus"
+  location = "Gdansk, Poland"
   date_start = "2019-01-01"
   date_end = ""
   description = """
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   * Building strategies
   * Implementing transformation roadmaps
   * R&D in Testing
-  * Resource Team management
+  * Resource Group management
   """
 
 [[experience]]
