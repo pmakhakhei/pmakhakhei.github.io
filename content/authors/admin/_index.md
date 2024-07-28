@@ -53,7 +53,7 @@ social:
   link: 'https://t.me/pavel_m7i'
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/pavel-m-779955267i/
+  link: https://www.linkedin.com/in/pmakhakhei/
 - icon: medium
   icon_pack: fab
   link: 'https://medium.com/@pavel.makhakhei'
@@ -79,13 +79,13 @@ user_groups:
 - Visitors
 ---
 
-I'm specializing in building test strategy and holistic ecosystem aiming to improve time to market, quality in production, testing effectiveness.
-- 13 years' experience in Software Testing
-- 6 years' experience in leading, management and consulting
-- focused on technologies and solutions
-- strong critical thinking and analytical skills
-- managed teams of 20+ people
-- standartized automation landscape on a large scale
-- experienced in Java / .NET test automation
-- led researches in Continuous Testing, Cloud-native validation
-- interviewer, speaker, trainer
+I build Test and Test Automation strategies aiming to improve time-to-market, production quality, and testing effectiveness.
+- 16 years of experience in software testing
+- 10 years of experience in leadership, management, and consulting
+- Focused on technologies and solutions
+- Strong critical thinking and analytical skills
+- Managed teams of 20+ people
+- Standardized automation landscape on a large scale
+- Experienced in building Test Automation frameworks
+- Led research in continuous testing and cloud-native validation
+- Interviewer, speaker, trainer
